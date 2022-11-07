@@ -1,4 +1,4 @@
-package pl.piomin.microservices.account.exceptions;
+package com.intuit.snip.exceptions;
 
 import org.springframework.web.bind.annotation.ResponseStatus;
 

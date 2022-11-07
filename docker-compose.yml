@@ -31,11 +31,11 @@ services:
     ports:
       - "9411:9411"
 
-  account-service:
-    image: piomin/account-service
-    container_name: account-service
+  snip-service:
+    image: piomin/snip-service
+    container_name: snip-service
     build:
-      context: ./account-service
+      context: ./snip-service
       dockerfile: Dockerfile
     ports:
       - "2222:2222"

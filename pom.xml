@@ -14,13 +14,13 @@
 
     <properties>
         <java.version>1.8</java.version>
-        <spring.boot>1.4.2.RELEASE</spring.boot>
-        <spring.boot.eureka>1.2.2.RELEASE</spring.boot.eureka>
+        <spring.boot>2.6.9</spring.boot>
+        <spring.boot.eureka>1.4.7.RELEASE</spring.boot.eureka>
     </properties>
 
     <modules>
         <module>discovery-service</module>
-        <module>account-service</module>
+        <module>snip-service</module>
         <module>gateway-service</module>
         <module>customer-service</module>
         <module>zipkin-service</module>
@@ -30,7 +30,7 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.12</version>
+            <version>1.18.20</version>
         </dependency>
     </dependencies>
 
